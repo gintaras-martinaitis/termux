@@ -3,7 +3,7 @@
 
 #apt --assume-yes install nano php python
 
-sed -i -- 's/PS1/bar/g' /data/data/com.termux/files/usr/etc/bash.bashrc
+sed -i -- 's/\\$/bar/g' /data/data/com.termux/files/usr/etc/bash.bashrc
 
 nano /data/data/com.termux/files/usr/etc/bash.bashrc
 #echo 'PS1=\u $(pwd) \$: ' >> /data/data/com.termux/files/usr/etc/bash.bashrc
