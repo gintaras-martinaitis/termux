@@ -5,5 +5,5 @@ apt --assume-yes install nano php python
 
 echo 'PS1=\u $(pwd) \$: ' >> /data/data/com.termux/files/usr/etc/bash.bashrc
 echo  | sed 's/test/another test/'
-clear
+#clear
 cat /data/data/com.termux/files/usr/etc/bash.bashrc
